@@ -1,0 +1,101 @@
+body {
+    font-family: 'Century Gothic', Verdana, serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    color:rebeccapurple;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color:darkcyan;
+    border-top: 3px dotted grey;
+    padding-top: 5px;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+thead {
+    font-family: 'Verdana';
+    text-align: center;
+    line-height: 1.7em;
+}
+
+th {    
+    color: white;
+    border: 2px solid white;
+    background-color: darkcyan;
+    border-radius: 20px;
+}
+
+tr {
+
+}
+
+td {
+    padding: 7px;
+    border-radius: 10px;
+    border: 2px solid white;
+
+}
+
+footer {
+    margin-top: 80px;
+    padding: 5px;
+    color: white;
+    background-color: lightgrey;
+    font-family: monospace;
+    font-size: large;
+    text-align: right;
+    height: 3em;
+}
+.code {
+    font-family: monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    background-color:darkslategrey;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.description {
+    font-style: italic;
+}
+
+.desc-code {
+    font-family: monospace;
+    font-weight: bold;
+    font-style: normal;
+    font-size: large;
+    color: white;
+    background-color:darkslategrey;
+}
+}
+
+.spacer {
+    font-size: 3px;
+}
+
+.main-head {
+    font-family: 'Century Gothic', Verdana, serif;
+    letter-spacing: 0.3em;   
+    text-transform: uppercase;
+    line-height: 40px;
+    background-color: white;
+    color: darkcyan;
+    font-size: 1.5em;
+    border-top: 3px solid;
+    border-radius: 0;
+}
