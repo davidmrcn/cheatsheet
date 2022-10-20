@@ -7,8 +7,11 @@ h1, h2 {
 }
 
 h1 {
-    color:rebeccapurple;
+    color:cadetblue;
+    margin-top: 200px;
     margin-bottom: 50px;
+    letter-spacing: 0.3em;   
+    text-transform: uppercase;
 }
 
 h2 {
@@ -57,6 +60,55 @@ footer {
     text-align: right;
     height: 3em;
 }
+
+.title {
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+}
+.topnav {
+    font-family: monospace;
+    text-align: center;
+    background-color: darkcyan;
+    font-size: 1.8em;
+    color: white;
+    width: 60%;
+    height: 15%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    word-spacing: 2em;
+    right: 0;
+    left: 0;
+    top: 0;
+    position: fixed;
+ 
+}
+
+.topnav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.topnav li {
+    display: inline;
+}
+.topnav a {
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.topnav a:hover {
+    background-color: white;
+    color: darkcyan;
+}
+
+.content {
+
+}
 .code {
     font-family: monospace;
     text-align: center;
@@ -81,6 +133,7 @@ footer {
     font-size: large;
     color: white;
     background-color:darkslategrey;
+    border-radius: 5px;
 }
 }
 
