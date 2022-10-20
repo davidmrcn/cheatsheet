@@ -4,12 +4,26 @@
     <title>Full Stack Developper - Cheat Sheet</title>
   </head>
   <body>
-    <h1>Tables in HTML</h1>
+
+    <div class="topnav">
+      <div class="title">HTML CHEATSHEET</div>
+      <div>
+      <ul>
+        <li><a href="#tables">Tables</a></li>
+        <li><a href="#semantic">Semantic</a></li>
+        <li><a href="#lists">Lists</a></li>
+      </ul>
+      </div>
+    </div>
+
+    <div class="content">
+      <div id="tables">
+    <h1>Tables</h1>
 
     <table>
       <thead>
         <tr>
-          <th colspan="3" class="main-head">Tags</th>
+          <th colspan="3" class="main-head">Tables: Tags</th>
         </tr>
         <tr>
           <th>Tag</th>
@@ -60,7 +74,7 @@
     <table>
       <thead>
         <tr>
-          <th colspan="3" class="main-head">Attributes</th>
+          <th colspan="3" class="main-head">Tables: Attributes</th>
         <tr>
           <th>Tag</th>
           <th>Name</th>
@@ -84,6 +98,98 @@
       </tbody>
       </thead>
     </table>
+    </div>
+
+    <div id="semantic">
+<p>
+  <h1>Semantic HTML</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th colspan="3" class="main-head">&nbsp;</th>
+        </tr>
+        <tr>
+          <th>Tag</th>
+          <th>Description</th>
+        </tr>  
+      </thead>
+      <tbody>
+        <tr>
+          <td class="spacer" colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="code">&lt;header&gt;<br/>&lt;nav&gt;<br/>&lt;main&gt;<br/>&lt;footer&gt;</td>
+          <td class="description">Create the basic structure of the webpage</td>
+        </tr>
+        <tr>
+          <td class="code">&lt;section&gt;</td>
+          <td class="description">Defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.</td>
+        </tr>
+        <tr>
+          <td class="code">&lt;article&gt;</td>
+          <td class="description">Holds content that makes sense on its own such as articles, blogs, comments, etc.</td>
+        </tr>
+        <tr>
+          <td class="code">&lt;aside&gt;</td>
+          <td class="description">Contains information that is related to the main content, but not required in order to understand the dominant information.</td>
+        </tr>
+        <tr>
+          <td class="code">&lt;figure&gt;</td>
+          <td class="description">Encapsulates all types of media.</td>
+        </tr>
+        <tr>
+          <td class="code">&lt;figcaption&gt;</td>
+          <td class="description">Used to describe the media in <span class="desc-code">&lt;figure&gt;</span></td>
+        </tr>
+        <tr>
+          <td class="code">&lt;audio&gt;<br>&lt;video&gt;<br>&lt;embed&gt;</td>
+          <td class="description">Used for media files.</td>
+        </tr>
+      </tbody>
+    </table>
+</p>
+    </div>
+
+    <div id="lists">
+
+<p>
+  <h1>Lists</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th colspan="3" class="main-head">&nbsp;</th>
+      </tr>
+      <tr>
+        <th>Tag</th>
+        <th>Description</th>
+      </tr>  
+    </thead>
+    <tbody>
+      <tr>
+        <td class="spacer" colspan="2">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="code">&lt;ul&gt;</td>
+        <td class="description">Encapsulates an unordered list of items.</td>
+      </tr>
+      <tr>
+        <td class="code">&lt;ol&gt;</td>
+        <td class="description">Encapsulates an ordered list of items.</td>
+      </tr>
+      <tr>
+        <td class="code">&lt;li&gt;</td>
+        <td class="description">Encapsulate an item of any ordered or unordered list.</td>
+      </tr>
+    </tbody>
+  </table>
+
+</p>
+
+
+    </div>
+  </div>
 <footer>
   <p>David // html-css cheatsheet // October 2022</p>
 </footer>
